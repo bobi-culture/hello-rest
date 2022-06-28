@@ -7,6 +7,10 @@ app = Flask(__name__)
 def hello_world():
     return "<p><i>Hello, Dennis !</i></p>"
 
+@app.route("/ping")
+def ping():
+    return "<p><i> pong!</i></p>"
+
 
 @app.route('/summary')
 def summary():
