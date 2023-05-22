@@ -1,0 +1,8 @@
+dir.txt
+Dockerfile
+hello.py
+hello.pyc
+Jenkinsfile
+READ.me
+READ.me2
+README.md
