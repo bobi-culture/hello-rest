@@ -6,5 +6,13 @@ pipeline {
         sh 'echo Hello'
       }
     }
+    stage(cat READ.me") {
+      when {
+        branch "fix-*"
+      }
+      steps {
+        sh ''' 
+           cat READ.me
+            ''' 
   }  
 }
